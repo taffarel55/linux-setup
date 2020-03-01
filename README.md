@@ -1,4 +1,32 @@
-# Codigos escritos por mim
+# Programs
+
+To install my programs
+
+```sudo -S arduino qcad blender kicad octave code cheese simplescreenrecorder gedit```
+
+# Japanese Keyboard
+
+First install these pkgs
+```sudo pacman -S adobe-source-han-sans-jp-fonts otf-ipafont ibus ibus-anthy```
+
+Then add to '~/.xprofile' this:
+```
+# Settings for Japanese input
+export GTK_IM_MODULE='ibus'
+export QT_IM_MODULE='ibus'
+export XMODIFIERS=@im='ibus'
+
+#Toolbar for anthy
+ibus-daemon -drx
+```
+
+Restart the system and configure your keyboard with
+
+```ibus-setup```
+_______________________-
+
+
+
 ```
 export PS1="\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;6m\]\W\[$(tput sgr0)\]\[\033[38;5;15m\] \\$ \[$(tput sgr0)\]"
 
