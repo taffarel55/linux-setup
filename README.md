@@ -2,7 +2,7 @@
 
 To install my programs
 
-```$ sudo pacman -S arduino qcad blender kicad octave code cheese simplescreenrecorder gedit telegram-desktop```
+```sudo pacman -S arduino qcad blender kicad octave code cheese simplescreenrecorder gedit telegram-desktop```
 
 # Japanese Keyboard
 
@@ -68,5 +68,5 @@ confScreen() {
  xrandr --addmode eDP1 1360x768_60.00
  xrandr -s 1360x768_60.00
 }
-
+# End of my custom prompt
 ```
