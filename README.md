@@ -28,18 +28,21 @@ Restart the system and configure your keyboard with
 # KVM, QEMU and Virt Manager
 
 1. To check hardware and kernel support
+
 ```LC_ALL=C lscpu | grep Virtualization```
+
 ```zgrep CONFIG_KVM /proc/config.gz```
 
 2. Install KVM packages and install ebtables and iptables packages:
 
-```
-sudo pacman -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat ebtables iptables
-```
+```sudo pacman -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat ebtables iptables```
+
 3. Enable and start service
 
 ```sudo systemctl enable libvirtd.service```
+
 ```sudo systemctl start libvirtd.service```
+
 4. For network errors
 
 ```
