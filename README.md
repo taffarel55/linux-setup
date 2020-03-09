@@ -2,7 +2,7 @@
 
 To install my programs
 
-```sudo pacman -S arduino qcad blender kicad octave code cheese simplescreenrecorder gedit telegram-desktop```
+```sudo pacman -S arduino qcad blender kicad octave code cheese simplescreenrecorder gedit telegram-desktop filezilla```
 
 # Japanese Keyboard
 
