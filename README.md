@@ -51,6 +51,31 @@ sudo virsh net-autostart default
 sudo virsh net-start default
 
 ```
+# MATLAB
+
+1. Install from 2 CD
+2. Insert the license
+3. Create the launcher and go to:
+
+```~/.local/share/applications/matlab.desktop```
+
+and edit this:
+```
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=MATLAB 2018b
+Comment=Matlabin
+Icon=matlab
+Exec=/usr/local/MATLAB/R2018b/bin/matlab
+Actions=
+Categories=Education;
+Path=
+Terminal=true
+StartupNotify=false
+```
+4. Add this line ```export XAUTHORITY=/home/[user]/.Xauthority [app-name or path]``` to the ```/etc/profile```
+5. Install [libselinux](https://aur.archlinux.org/packages/libselinux/)<sup>AUR</sup> and [libsepol](https://aur.archlinux.org/packages/libsepol/)<sup>AUR</sup>
 
 # My scripts .bashrc
 
