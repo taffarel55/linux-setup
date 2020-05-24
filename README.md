@@ -2,7 +2,9 @@
 
 To install my programs
 
-```sudo pacman -S arduino qcad blender kicad octave code cheese simplescreenrecorder gedit telegram-desktop filezilla gcc-fortran```
+```sudo pacman -S snapd arduino qcad blender kicad octave code cheese simplescreenrecorder gedit telegram-desktop filezilla gcc-fortran```
+
+```sudo snap install drawio```
 
 # Japanese Keyboard
 
