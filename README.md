@@ -6,6 +6,9 @@ To install my programs
 
 ```sudo snap install drawio```
 
+From AUR:
+```logisim-evolution-git```
+
 # Japanese Keyboard
 
 First install these pkgs
