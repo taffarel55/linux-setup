@@ -9,6 +9,9 @@ To install my programs
 From AUR:
 ```logisim-evolution-git```
 
+[SimulIDE](https://www.simulide.com/)
+[Digital](https://github.com/taffarel55/Digital/)
+
 # Japanese Keyboard
 
 First install these pkgs
