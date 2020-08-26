@@ -2,7 +2,7 @@
 
 To install my programs
 
-```sudo pacman -S vim snapd arduino qcad blender kicad octave code cheese simplescreenrecorder gedit telegram-desktop filezilla gcc-fortran gource ghdl gtkwave```
+```sudo pacman -S vim snapd arduino qcad blender kicad octave code cheese simplescreenrecorder gedit telegram-desktop filezilla gcc-fortran gource ghdl gtkwave anki```
 
 ```sudo snap install drawio```
 
