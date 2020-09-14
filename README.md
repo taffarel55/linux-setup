@@ -4,10 +4,10 @@ To install my programs
 
 ```sudo pacman -S vim snapd arduino qcad blender kicad octave code cheese simplescreenrecorder gedit telegram-desktop filezilla gcc-fortran gource ghdl gtkwave anki mpv mplayer```
 
-```sudo snap install drawio```
+```sudo snap install spotify```
 
 From AUR:
-```logisim-evolution-git```
+```whatsapp-nativefier wps-office```
 
 [SimulIDE](https://www.simulide.com/)
 [Digital](https://github.com/taffarel55/Digital/)
