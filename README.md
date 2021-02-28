@@ -93,6 +93,7 @@ export PS1="\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\
 
 openUSB() {
  sudo chmod 666 /dev/ttyACM0
+ sudo chmod 666 /dev/ttyUSB0
 }
 
 up() {
