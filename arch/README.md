@@ -105,5 +105,9 @@ confScreen() {
  xrandr --addmode eDP1 1360x768_60.00
  xrandr -s 1360x768_60.00
 }
+
+export HISTSIZE=10000
+export HISTFILESIZE=10000
+
 # End of my custom prompt
 ```
