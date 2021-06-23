@@ -7,7 +7,7 @@ To install my programs
 ```sudo snap install spotify```
 
 From AUR:
-```whatsapp-nativefier wps-office typora```
+```whatsapp-nativefier wps-office typora minder-git```
 
 [SimulIDE](https://www.simulide.com/)
 [Digital](https://github.com/taffarel55/Digital/)
