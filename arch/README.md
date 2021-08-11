@@ -2,7 +2,7 @@
 
 To install my programs
 
-```sudo pacman -S vim snapd arduino qcad blender kicad octave code cheese simplescreenrecorder gedit telegram-desktop filezilla gcc-fortran gource ghdl gtkwave anki mpv mplayer iverilog discord obs-studio lyx kdenlive qalculate-gtk kalgebra mathomatic noto-fonts-emoji```
+```sudo pacman -S vim snapd arduino qcad blender kicad octave code cheese simplescreenrecorder gedit telegram-desktop filezilla gcc-fortran gource ghdl gtkwave anki mpv mplayer iverilog discord obs-studio lyx kdenlive qalculate-gtk kalgebra mathomatic noto-fonts-emoji peek```
 
 ```sudo snap install spotify```
 
@@ -90,6 +90,8 @@ StartupNotify=false
 ```
 # My custom prompt
 export PS1="\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;6m\]\W\[$(tput sgr0)\]\[\033[38;5;15m\] \\$ \[$(tput sgr0)\]"
+# export PS1="\[\033[38;5;10m\]\[$(tput sgr0)\]\[\033[38;5;15m\]\[$(tput sgr0)\]\[\033[38;5;6m\]\W\[$(tput sgr0)\]\[\033[38;5;15m\] \\$ \[$(tput sgr0)\]"
+
 
 openUSB() {
  sudo chmod 666 /dev/ttyACM0
@@ -109,5 +111,17 @@ confScreen() {
 export HISTSIZE=10000
 export HISTFILESIZE=10000
 
+export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+export PATH="$PATH:$GEM_HOME/bin"
+
+killNode() { 
+	kill -9 `lsof -i :8000 | grep node | cut -d ' ' -f '5-5'` # Rever dps...
+}
+
+vscode() {
+        code . && exit
+}
+
 # End of my custom prompt
+
 ```
